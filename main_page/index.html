@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KLYP_test</title>
+    <link rel="stylesheet" href="./src/normalize.css" />
+    <link rel="stylesheet" href="./src/index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="home">
+      <h1 class="header mt-3 mb-5">KLYP_test</h1>
+      <p class="m-2">
+        Welcome! You can search a movie that contains red, green, blue or
+        yellow, by just clicking the following button.
+      </p>
+      <div class="home row m-3">
+        <div class="col-3">
+          <button class="button button-red" onClick="handleClick('red')">
+            Red
+          </button>
+        </div>
+        <div class="col-3">
+          <button class="button button-green" onClick="handleClick('green')">
+            Green
+          </button>
+        </div>
+        <div class="col-3">
+          <button class="button button-blue" onClick="handleClick('blue')">
+            Blue
+          </button>
+        </div>
+        <div class="col-3">
+          <button class="button button-yellow" onClick="handleClick('yellow')">
+            Yellow
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="movie-container"></div>
+
+    <div class="footer p-2">
+      <p class="mb-1">Copyright © Bingqing (Francis) Cheng</p>
+      <div class="row">
+        <p class="m-0 col-6">Email: cbqfrancis@gmail.com</p>
+        <p class="m-0 col-6">Tel: 0416440306</p>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./src/index.js"></script>
+  </body>
+</html>

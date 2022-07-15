@@ -1,0 +1,56 @@
+body,
+.movie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+.movie-container {
+  width: 100vw;
+}
+
+.home,
+.movie-content {
+  width: 100%;
+  max-width: 1000px;
+}
+.button {
+  border: 1px solid white;
+  width: 80%;
+}
+
+.button:hover {
+  border: 1px solid black;
+}
+
+.button-red {
+  background-color: rgb(209, 118, 118);
+}
+.button-green {
+  background-color: rgb(74, 167, 74);
+}
+.button-blue {
+  background-color: rgb(110, 110, 251);
+}
+.button-yellow {
+  background-color: rgb(232, 232, 112);
+}
+
+.header {
+  text-align: center;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #ccc;
+}
+
+.movie-title {
+  text-align: center;
+}
+.movie-image {
+  width: 100%;
+  max-width: 400px;
+}
